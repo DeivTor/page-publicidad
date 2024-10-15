@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icons/SIAS.svg" type="image/x-icon">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Google icons-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call,mail,where_to_vote" />
+    <!--LorIcon-->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Landing</title>
+</head>
+
+<body>
+    <section id="hero" class="container-fluid">
+        <div class="row">
+            <!--Columna izquierda del hero-->
+            <div class="col-md-6 d-none left-side d-md-flex align-items-center justify-content-end">
+                <!-- Carousel -->
+            </div>
+            <!--Columna Derecha del hero-->
+            <div class="col-md-6 right-side ">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1">
+                    <div class="col d-flex align-items-center justify-content-center py-4 mb-5">
+                        <nav class="navbar">
+                            <div class="container justify-content-between">
+                                <a class="navbar-brand" href="#hero"><img src="assets/icons/SIAS.svg" id="icon-logo"
+                                        alt=""></a>
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#hero">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#about">Sobre nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#contact">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <!-- Texto del hero -->
+                    <div id="hero-article"
+                        class="col d-flex align-items-center justify-content-center mt-md-5 mt-lg-5 mt-0 px-5">
+                        <h1 id="hero-title" class="text-dark">Haz que tu marca <span class="hightlight">"brille"</span>
+                            con avisos publicitarios para negocios <span class="hightlight">"impactantes".</span></h1>
+                    </div>
+
+                    <!--Boton del hero-->
+                    <div class="col d-flex align-items-end justify-content-end mt-5 px-5 py-5">
+                        <div class="container d-flex justify-content-end">
+                            <a href="#marcas" class="scroll-arrow">
+                                <button id="button-hero">
+                                    <lord-icon src="https://cdn.lordicon.com/gmrwknsv.json" trigger="hover"
+                                        stroke="bold" colors="primary:#16c1e4,secondary:#08a88a"
+                                        style="width:50px;height:50px">
+                                    </lord-icon>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container-fluid">
+
+        <!-- Primera Seccion -->
+        <div id="seccion-1" class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <div class="col pt-5 d-flex align-items-center">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-11 col-md-11 col-lg-11">
+                            <h2 class="about-title text-end">Stand Publicitario</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 col-md-11 col-lg-11 d-flex justify-content-end pb-5">
+                            <p class="text-end">
+                                Haz que tu marca brille con un stand publicitario impactante. Atrae todas las miradas
+                                con diseños personalizados y estructuras que destacan, creando una impresión profesional
+                                y memorable en cualquier evento.
+                            </p>
+                        </div>
+                        <div class="col-11 col-md-11 col-lg-11 d-flex justify-content-end pb-5">
+                            <a class="link-about"
+                                href="https://api.whatsapp.com/send/?phone=573145681451&text&type=phone_number&app_absent=0"
+                                target="_blank">
+                                <button class="button-about rounded-pill">Conoce más</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Imagen de la seccion -->
+            <div class="col text-center py-5 px-0">
+                <img src="assets/img/post-2.png" class="img-post" alt="">
+            </div>
+        </div>
+
+        <!-- Segunda Seccion -->
+        <div id="seccion-2" class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <!--Imagen de la seccion -->
+            <div class="col text-center py-5 px-0">
+                <img src="assets/img/post-3.png" class="img-post" alt="">
+            </div>
+            <div class="col pt-5 d-flex align-items-center">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-11 col-md-11 col-lg-11">
+                            <h2 class="about-title-right text-start">Avisos en acrílico</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 col-md-11 col-lg-11 d-flex justify-content-start pb-5">
+                            <p class="text-start">
+                                Ilumina tu marca con avisos en acrílico que destacan a cualquier hora. Con tecnología
+                                avanzada y un diseño impactante, garantizan que tu mensaje brille. Perfectos para
+                                promociones, logos o mensajes clave, ofrecen visibilidad continua e impacto memorable.
+                            </p>
+                        </div>
+                        <div class="col-11 col-md-11 col-lg-11 d-flex justify-content-start pb-5">
+                            <a class="link-about"
+                                href="https://api.whatsapp.com/send/?phone=573145681451&text&type=phone_number&app_absent=0"
+                                target="_blank">
+                                <button class="button-about rounded-pill">Conoce más</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tercera Seccion -->
+        <div id="seccion-3" class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <div class="col pt-5 d-flex align-items-center">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-11 col-md-11 col-lg-11">
+                            <h2 class="about-title text-end">Vallas exteriores</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 col-md-11 col-lg-11 d-flex justify-content-end pb-5">
+                            <p class="text-end">
+                                Las vallas exteriores captan la atención de miles cada día. Con diseño atractivo y
+                                ubicación estratégica, son el altavoz perfecto para tu marca, logrando un impacto visual
+                                memorable y convirtiendo cada mirada en una oportunidad de negocio.
+                            </p>
+                        </div>
+                        <div class="col-11 col-md-11 col-lg-11 d-flex justify-content-end pb-5">
+                            <a class="link-about"
+                                href="https://api.whatsapp.com/send/?phone=573145681451&text&type=phone_number&app_absent=0"
+                                target="_blank">
+                                <button class="button-about rounded-pill">Conoce más</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Imagen de la seccion -->
+            <div class="col text-center py-5 px-0">
+                <img src="assets/img/post-1.png" class="img-post" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Mas proyectos (Apartado) -->
+    <section id="proyects" class="container-fluid">
+        <div class="container col-xxl-8 py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-sm-11 col-md-11 col-lg-12">
+                    <div id="card-button-proyect" class="card">
+                        <div class="card-body rounded-pill">
+                            <div class="row px-3">
+                                <div class="col-md-7 col-lg-9 py-3">
+                                    <h5 class="subtitle pb-2">Más proyectos</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Ven y conoce todos los proyectos
+                                        que hemos realizado.</h6>
+                                </div>
+                                <div class="col-md-5 col-lg-3 d-flex justify-content-center align-items-center">
+                                    <a href="proyecto.html" id="link-project">
+                                        <button class="button-project rounded-pill">Descubrir</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caracteristicas -->
+    <section id="features">
+        <div class="container col-xxl-8 py-5 px-5">
+            <div class="row">
+                <div class="col-12  text-center py-5">
+                    <h2 class="py-4">¿Cómo lo hacemos?</h2>
+                    <hr style="width: 10%; margin: 0 auto; border: none; border-top: 4px solid #4d4d4d;;">
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <!--Card 1-->
+                <div class="col d-flex justify-content-center">
+                    <div id="card-caracteristic" class="card" style="width: 25rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center pt-5">
+                                <lord-icon src="https://cdn.lordicon.com/jdgfsfzr.json" trigger="hover"
+                                    state="hover-conversation-alt" colors="primary:#121331,secondary:#16c1e4"
+                                    style="width:100px;height:100px">
+                                </lord-icon>
+                            </h5>
+                            <h6 class="subtitle text-center">Plantear</h6>
+                            <hr class="hr-custom">
+                            <p class="card-text text-center">Hablemos de tus necesidades, las ideas que tienes en mente
+                                y cómo podemos hacerlas realidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="col d-flex justify-content-center">
+                    <div id="card-caracteristic" class="card" style="width: 25rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center pt-5">
+                                <lord-icon src="https://cdn.lordicon.com/exymduqj.json" trigger="hover"
+                                    state="hover-line" colors="primary:#121331,secondary:#16c1e4"
+                                    style="width:100px;height:100px">
+                                </lord-icon>
+                            </h5>
+                            <h6 class="subtitle text-center">Diseñemos</h6>
+                            <hr class="hr-custom">
+                            <p class="card-text text-center">Transformamos tus ideas en diseños únicos que capturan la
+                                esencia de tu marca y cautivan a tu audiencia.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 3-->
+                <div class="col d-flex justify-content-center">
+                    <div id="card-caracteristic" class="card" style="width: 25rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center pt-5">
+                                <lord-icon src="https://cdn.lordicon.com/ayjfxoly.json" trigger="hover"
+                                    colors="primary:#121331,secondary:#16c1e4" style="width:100px;height:100px">
+                                </lord-icon>
+                            </h5>
+                            <h6 class="subtitle text-center">Producción</h6>
+                            <hr class="hr-custom">
+                            <p class="card-text text-center">Llevamos el diseño a la realidad, cuidando cada detalle
+                                para que tu publicidad sea impactante y profesional, lista para destacar donde más
+                                importa.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 4-->
+                <div class="col d-flex justify-content-center">
+                    <div id="card-caracteristic" class="card" style="width: 25rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center pt-5">
+                                <lord-icon src="https://cdn.lordicon.com/jectmwqf.json" trigger="hover"
+                                    colors="primary:#121331,secondary:#16c1e4" style="width:100px;height:100px">
+                                </lord-icon>
+                            </h5>
+                            <h6 class="subtitle text-center">Lanzamiento</h6>
+                            <hr class="hr-custom">
+                            <p class="card-text text-center">Instalamos y desplegamos tu publicidad, asegurando que tu
+                                mensaje destaque de manera impactante y visible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="contact" class="container-fluid px-0 ">
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 180" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(22, 193, 228, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(22, 193, 228, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,126L15,129C30,132,60,138,90,129C120,120,150,96,180,78C210,60,240,48,270,42C300,36,330,36,360,39C390,42,420,48,450,57C480,66,510,78,540,75C570,72,600,54,630,51C660,48,690,60,720,72C750,84,780,96,810,90C840,84,870,60,900,66C930,72,960,108,990,123C1020,138,1050,132,1080,126C1110,120,1140,114,1170,96C1200,78,1230,48,1260,39C1290,30,1320,42,1350,45C1380,48,1410,42,1440,60C1470,78,1500,120,1530,117C1560,114,1590,66,1620,63C1650,60,1680,102,1710,108C1740,114,1770,84,1800,63C1830,42,1860,30,1890,33C1920,36,1950,54,1980,66C2010,78,2040,84,2070,96C2100,108,2130,126,2145,135L2160,144L2160,180L2145,180C2130,180,2100,180,2070,180C2040,180,2010,180,1980,180C1950,180,1920,180,1890,180C1860,180,1830,180,1800,180C1770,180,1740,180,1710,180C1680,180,1650,180,1620,180C1590,180,1560,180,1530,180C1500,180,1470,180,1440,180C1410,180,1380,180,1350,180C1320,180,1290,180,1260,180C1230,180,1200,180,1170,180C1140,180,1110,180,1080,180C1050,180,1020,180,990,180C960,180,930,180,900,180C870,180,840,180,810,180C780,180,750,180,720,180C690,180,660,180,630,180C600,180,570,180,540,180C510,180,480,180,450,180C420,180,390,180,360,180C330,180,300,180,270,180C240,180,210,180,180,180C150,180,120,180,90,180C60,180,30,180,15,180L0,180Z">
+            </path>
+        </svg>
+        <div class="container col-xxl-8 py-5 px-5">
+            <div class="row">
+                <div class="col text-center pb-3 my-5">
+                    <h2 class="pb-3">Contactanos</h2>
+                    <hr style="width: 10%; margin: 0 auto; border: none; border-top: 4px solid #16c1e4;">
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="form-floating mb-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Nombre Completo</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Empresa</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Correo Electronico</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="number" class="form-control" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Teléfono</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Mensaje</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.2474735173537!2d-74.19737758326194!3d4.595832535762847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f7573ef07990f%3A0x36decb92b80b6760!2sPUBLICIDAD%20SIAS!5e0!3m2!1ses!2sco!4v1728842084512!5m2!1ses!2sco"
+                        width="100%" height="100%" style="border:0; border-radius: 20px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marcas que nos apoyan -->
+    <section id="marcas" class="mt-5 ">
+        <div class="container col-xxl-8 py-5">
+            <div class="row text-center">
+                <h2 class="mt-4">Confían en nosotros</h2>
+            </div>
+            <div class="carousel-logos">
+                <div class="logos-track pt-5">
+                    <div class="logo-item">
+                        <img src="assets/icons/fs-colombina.svg" style="width: 150px; height: 150px;">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/icons/justo-bueno.svg" style="width: 150px; height: 150px;">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/icons/mundo-mujer.svg" style="width: 150px; height: 150px;">
+                    </div>
+                    <div class="logo-item d-flex align-items-center">
+                        <img src="assets/icons/poli-tecnico.svg" style="width: 150px; height: 75px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+<footer>
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mb-5 border-top">
+            <div class="col mb-3">
+                <a href="#hero" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img src="assets/icons/SIAS.svg" style="width: 100px; height: auto;" alt="">
+                </a>
+                <p class="footer-title">© 2024</p>
+            </div>
+
+            <div class="col mb-3">
+                <h5 class="footer-title">Hablemos</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">call</span> 310 594 2152</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">call</span> 310 276 9856</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">call</span> 314 568 1451</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 class="footer-title">Escribenos</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">mail</span>comercial1@siaspublicidad.com</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">mail</span>comercial2@siaspublicidad.com</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">mail</span>comercial3@siaspublicidad.com</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">mail</span>asistenteproyectos@siaspublicidad.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+
+            </div>
+
+            <div class="col mb-3">
+                <h5 class="footer-title">Visitanos</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex align-items-center"><span
+                                class="material-symbols-outlined">where_to_vote</span>Cl 46 #10-62,Soacha,
+                            Cundinamarca</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</footer>
+
+</html>
