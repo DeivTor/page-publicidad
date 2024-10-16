@@ -28,13 +28,21 @@ footer,
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar{
+    background-color: rgba(23, 195, 229, 0.616);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
 li {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 #icon-logo{
-    width: 70px;
+    width: 60px;
     height: auto;
 }
 
@@ -80,8 +88,22 @@ li {
 }
 
 /*Columna izquierda del hero*/
-.left-side {
+.left-side-main {
+    background-image: url('assets/img/img-hero-main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.left-side-proyect {
+    background-image: url('assets/img/img-proyect-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-side-sobre{
+    background-image: url('assets/img/trabajo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -400,6 +422,30 @@ footer p{
 #proyectos .card-text small {
     font-size: 15px;
     color: #586066;
+}
+
+/*PAGINA SOBRE NOSOTROS*/
+
+#sobre-nosotros h2{
+    color:rgb(26, 26, 26);
+    font-size: 50px;
+}
+
+#sobre-nosotros p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.img-collage{
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 0.3s ease
+}
+
+.img-collage:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    filter: brightness(0.8);
 }
 
 
